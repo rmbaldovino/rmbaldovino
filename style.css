@@ -135,9 +135,19 @@ input[type=text], textarea{
     margin-bottom: 16px;
     resize: vertical;
 }
+input[type=email], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #00abf0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
 input[type="submit"]{
     background-color: #00abf0;
-    color: #216796;
+    color: #112e42;
     padding: 15px 50px;
     border: none;
     border-radius: 50px;
@@ -146,7 +156,14 @@ input[type="submit"]{
     text-transform: uppercase;
     letter-spacing: 3px;
 }
-
+.form-submit {
+    width: 100%;
+    margin-top: 1.2rem;
+    background-color: #00abf0;
+    color: #fff;
+    padding: 13px 5px;
+    border-radius: 0.375rem;
+  }
 .navbar a{
     font-size: 1.7rem;
     color: var(--text-color);
